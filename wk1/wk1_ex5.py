@@ -1,0 +1,5 @@
+print("Good day,")
+one_or_less = float(input("please enter the number of bottles 1 litre or less: "))
+more_than_1 = float(input("please enter the number of bottles greater than a litre: "))
+price = (one_or_less*0.1)+(more_than_1*0.25)
+print('total refund is $%.2f' % price)
